@@ -17,7 +17,7 @@ class UserSeeder extends Seeder
     {
         //
         $user = new User();
-        $user->name = "yo";
+        $user->name = "吉";
         $user->email = 'kakuto1019@gmail.com';
         $user->email_verified_at = Carbon::now();
         $user->password = Hash::make('password');
