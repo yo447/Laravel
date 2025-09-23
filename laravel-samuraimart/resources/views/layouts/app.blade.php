@@ -12,15 +12,15 @@
         
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/a6bc7c7497.js" crossorigin="anonymous"></script>
-        
+    
         <link href="{{ asset('css/samuraimart.css') }}" rel="stylesheet">
     </head>
-    <body>
-        <div id="app">
-           @component('components.header')
+     <body>
+        <div id="app" class="samuraimart-wrapper">
+            @component('components.header')
             @endcomponent
 
-            <<main class="py-4 mb-5">
+            <main class="py-4">
                 @yield('content')
             </main>
 

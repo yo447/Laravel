@@ -15,7 +15,7 @@ class CategoriesTableSeeder extends Seeder
      */
     public function run()
     {
-         $major_category_names = [
+        $major_category_names = [
             '本', 'コンピュータ', 'ディスプレイ'
         ];
 
